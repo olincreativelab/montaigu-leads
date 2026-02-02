@@ -3,6 +3,9 @@ import path from 'path';
 import dynamic from 'next/dynamic';
 import { LeadCard } from './components/LeadCard';
 
+// Dynamically import map to avoid SSR issues with Leaflet
+const LeadMap = dynamic(() => import('./components/LeadMap'), { ssr: false });
+
 
 
 interface Lead {
@@ -55,32 +58,34 @@ export default async function Home() {
       </header>
 
       {/* Content */}
-      <div className="flex flex-1 overflow-hidden bg-slate-950">
-        <div className="flex h-full w-full flex-col">
-          {/* Filters */}
-          <div className="sticky top-0 z-10 border-b border-indigo-500/10 bg-slate-900/80 p-4 backdrop-blur-md">
-            <div className="mx-auto max-w-7xl">
-              <input
-                type="text"
-                placeholder="Search companies..."
-                className="w-full max-w-md rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
-              />
-            </div>
+      <div className="flex flex-1 overflow-hidden">
+        {/* Left Panel: List */}
+        <div className="flex w-[450px] flex-col border-r border-indigo-500/10 bg-slate-900/30 backdrop-blur-sm">
+          {/* Filters (Mock) */}
+          <div className="p-4 border-b border-indigo-500/10">
+            <input
+              type="text"
+              placeholder="Search companies..."
+              className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-white placeholder-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+            />
           </div>
 
           {/* Scrollable List */}
-          <div className="flex-1 overflow-y-auto p-4 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/10">
-            <div className="mx-auto grid max-w-7xl gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {leads.map((lead, idx) => (
-                <LeadCard key={idx} lead={lead} />
-              ))}
-            </div>
+          <div className="flex-1 overflow-y-auto p-4 space-y-4 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/10">
+            {leads.map((lead, idx) => (
+              <LeadCard key={idx} lead={lead} />
+            ))}
             {leads.length === 0 && (
-              <div className="mt-20 text-center text-slate-500">
+              <div className="p-8 text-center text-slate-500">
                 No leads found. Run the scraper first.
               </div>
             )}
           </div>
+        </div>
+
+        {/* Right Panel: Map */}
+        <div className="flex-1 relative bg-slate-950">
+          <LeadMap leads={leads} />
         </div>
       </div>
     </main>

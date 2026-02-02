@@ -5,7 +5,9 @@
     "address": "4 RUE DES COMPAGNONS",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251051834"
+    "phone": "0251051834",
+    "lat": 47.003624,
+    "lng": -1.341571
   },
   {
     "name": "192 PUB",
@@ -15,7 +17,9 @@
     "city": "Montaigu-Vendée",
     "phone": "0251386518",
     "email": "commercial@192pub.fr",
-    "website": "https://www.192pub.fr/"
+    "website": "https://www.192pub.fr/",
+    "lat": 47.019,
+    "lng": -1.345339
   },
   {
     "name": "7 ENVIES DE PAIN",
@@ -24,7 +28,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251940411",
-    "email": "bp7enviesdepain@orange.fr"
+    "email": "bp7enviesdepain@orange.fr",
+    "lat": 47.001891,
+    "lng": -1.332068
   },
   {
     "name": "A COEUR POUR TOI",
@@ -32,7 +38,9 @@
     "address": "34 RUE DE LA GARE",
     "zipCode": "85260",
     "city": "L'Herbergement",
-    "website": "http://www.acoeurpourtoi.fr"
+    "website": "http://www.acoeurpourtoi.fr",
+    "lat": 46.908629,
+    "lng": -1.373855
   },
   {
     "name": "A L’EAU SOSO",
@@ -41,7 +49,9 @@
     "zipCode": "85620",
     "city": "Rocheservière",
     "phone": "0689577677",
-    "email": "solene.kraft@gmail.com"
+    "email": "solene.kraft@gmail.com",
+    "lat": 46.916545,
+    "lng": -1.49449
   },
   {
     "name": "A LA FERME DU PAY",
@@ -49,7 +59,9 @@
     "address": "4 LD LE PAI",
     "zipCode": "85260",
     "city": "Montréverd",
-    "phone": "0251428959"
+    "phone": "0251428959",
+    "lat": 46.923679,
+    "lng": -1.392244
   },
   {
     "name": "A VOS COTES",
@@ -58,7 +70,9 @@
     "zipCode": "85530",
     "city": "La Bruffière",
     "phone": "0699641609",
-    "email": "accueil@avosvotes85.fr"
+    "email": "accueil@avosvotes85.fr",
+    "lat": 47.016721,
+    "lng": -1.198556
   },
   {
     "name": "A.M.C.",
@@ -67,7 +81,9 @@
     "zipCode": "85530",
     "city": "La Bruffière",
     "phone": "0251417900",
-    "email": "corneteau@corneteau.fr"
+    "email": "corneteau@corneteau.fr",
+    "lat": 46.997234,
+    "lng": -1.177855
   },
   {
     "name": "A.Y.D 85 CONTROLE TECHNIQUE",
@@ -76,7 +92,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251463115",
-    "email": "ayd85@orange.fr"
+    "email": "ayd85@orange.fr",
+    "lat": 46.969334,
+    "lng": -1.326031
   },
   {
     "name": "A2M",
@@ -84,28 +102,36 @@
     "address": "RUE DES ALOUETTES",
     "zipCode": "85620",
     "city": "Rocheservière",
-    "phone": "0251310774"
+    "phone": "0251310774",
+    "lat": 46.939913,
+    "lng": -1.506241
   },
   {
     "name": "A2M",
     "category": "Services administratifs combinés de bureau",
     "address": "LES GENETS",
     "zipCode": "85620",
-    "city": "Rocheservière"
+    "city": "Rocheservière",
+    "lat": 46.94219,
+    "lng": -1.509277
   },
   {
     "name": "A3NERGY",
     "category": "Travaux d'installation d'équipements thermiques et de climatisation",
     "address": "14 RUE RENE DESCARTES",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.976716,
+    "lng": -1.337101
   },
   {
     "name": "A4 FORMATION",
     "category": "Autres enseignements",
     "address": "593 RUE DE LA SIGNEAUDERIE",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.937184,
+    "lng": -1.28204
   },
   {
     "name": "AB MONTAGE 85",
@@ -121,14 +147,18 @@
     "category": "Travaux de peinture et vitrerie",
     "address": "2 IMPASSE DE LA SOURCE",
     "zipCode": "85260",
-    "city": "Montréverd"
+    "city": "Montréverd",
+    "lat": 46.907379,
+    "lng": -1.452034
   },
   {
     "name": "AB SOUDURE",
     "category": "Installation de structures métalliques, chaudronnées et de tuyauterie",
     "address": "1 RUE VINCENT ANSQUER",
     "zipCode": "85600",
-    "city": "Treize-Septiers"
+    "city": "Treize-Septiers",
+    "lat": 46.981198,
+    "lng": -1.224574
   },
   {
     "name": "ABC CARROSSERIE",
@@ -137,7 +167,9 @@
     "zipCode": "85260",
     "city": "Montréverd",
     "phone": "0251099373",
-    "email": "abc.carrosserie@gmail.com"
+    "email": "abc.carrosserie@gmail.com",
+    "lat": 46.890931,
+    "lng": -1.421026
   },
   {
     "name": "ABC CHAPE",
@@ -146,7 +178,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0613480693;0679248944",
-    "email": "contact@abc-chape.fr"
+    "email": "contact@abc-chape.fr",
+    "lat": 46.972224,
+    "lng": -1.343334
   },
   {
     "name": "ABGRALL JULIE",
@@ -154,7 +188,9 @@
     "address": "3 RUE DE L'EPEAUTRE",
     "zipCode": "85260",
     "city": "Montréverd",
-    "phone": "0622440787"
+    "phone": "0622440787",
+    "lat": 46.894515,
+    "lng": -1.412843
   },
   {
     "name": "ABICOM",
@@ -163,7 +199,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0683890995",
-    "email": "sarlabicom@gmail.com"
+    "email": "sarlabicom@gmail.com",
+    "lat": 46.966678,
+    "lng": -1.253312
   },
   {
     "name": "ABOUTIR EMPLOI EST",
@@ -172,7 +210,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251401840",
-    "email": "boufferemontaigu@transparence-rh.com"
+    "email": "boufferemontaigu@transparence-rh.com",
+    "lat": 46.976128,
+    "lng": -1.333307
   },
   {
     "name": "ABPROTEC FRANCE",
@@ -180,7 +220,9 @@
     "address": "109 RUE DES MARQUIS",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0228978646"
+    "phone": "0228978646",
+    "lat": 47.018717,
+    "lng": -1.345252
   },
   {
     "name": "ACCEFF",
@@ -189,7 +231,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0604136362",
-    "email": "guilberteau.stephanie@acceff.fr"
+    "email": "guilberteau.stephanie@acceff.fr",
+    "lat": 46.983252,
+    "lng": -1.321213
   },
   {
     "name": "ACE 85",
@@ -198,7 +242,9 @@
     "zipCode": "85260",
     "city": "Montréverd",
     "phone": "0603693737",
-    "email": "vendee@placedesenergies.com"
+    "email": "vendee@placedesenergies.com",
+    "lat": 46.893472,
+    "lng": -1.418733
   },
   {
     "name": "ACHV",
@@ -207,7 +253,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251420824",
-    "email": "contact@achv.fr"
+    "email": "contact@achv.fr",
+    "lat": 46.941361,
+    "lng": -1.286367
   },
   {
     "name": "ACTIMETAUX",
@@ -216,7 +264,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251489232",
-    "email": "actimetaux@wanadoo.fr"
+    "email": "actimetaux@wanadoo.fr",
+    "lat": 47.025365,
+    "lng": -1.351706
   },
   {
     "name": "ACTION",
@@ -225,7 +275,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0155564152",
-    "website": "http://www.action.com"
+    "website": "http://www.action.com",
+    "lat": 46.979529,
+    "lng": -1.300163
   },
   {
     "name": "ACTIV TRAVAUX",
@@ -234,7 +286,9 @@
     "zipCode": "85600",
     "city": "Treize-Septiers",
     "phone": "0677493373",
-    "email": "a.tatibouet@activ-travaux.com"
+    "email": "a.tatibouet@activ-travaux.com",
+    "lat": 46.990215,
+    "lng": -1.199133
   },
   {
     "name": "ACTU’CUISINE",
@@ -243,7 +297,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0679064525",
-    "email": "jgouraud@club-internet.fr"
+    "email": "jgouraud@club-internet.fr",
+    "lat": 47.003123,
+    "lng": -1.335969
   },
   {
     "name": "AD CONNECTIQUE",
@@ -252,7 +308,9 @@
     "zipCode": "85260",
     "city": "L'Herbergement",
     "phone": "0638970397",
-    "email": "ad.connectique@gmail.com"
+    "email": "ad.connectique@gmail.com",
+    "lat": 46.900631,
+    "lng": -1.380267
   },
   {
     "name": "ADECCO",
@@ -262,7 +320,9 @@
     "city": "Montaigu-Vendée",
     "phone": "0251099600",
     "email": "adecco.b21@adecco.fr",
-    "website": "http://www.adecco.fr"
+    "website": "http://www.adecco.fr",
+    "lat": 46.977078,
+    "lng": -1.241271
   },
   {
     "name": "ADECCO GROUPE FRANCE",
@@ -272,7 +332,9 @@
     "city": "Montaigu-Vendée",
     "phone": "0251099600",
     "email": "adecco.B21@adecco.fr",
-    "website": "http://www.groupe-adecco-france.fr"
+    "website": "http://www.groupe-adecco-france.fr",
+    "lat": 46.976128,
+    "lng": -1.333307
   },
   {
     "name": "ADEQUAT INTERIM",
@@ -281,7 +343,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251088750",
-    "email": "agence.montaigu@groupeadequat.fr"
+    "email": "agence.montaigu@groupeadequat.fr",
+    "lat": 46.978178,
+    "lng": -1.309569
   },
   {
     "name": "ADRIEN CUISINISTE AGENCEUR",
@@ -291,7 +355,9 @@
     "city": "Montaigu-Vendée",
     "phone": "0689437608",
     "email": "contact@adrien85.com",
-    "website": "https://www.adrien85.com/"
+    "website": "https://www.adrien85.com/",
+    "lat": 46.969061,
+    "lng": -1.328534
   },
   {
     "name": "ADVANCED SOLUTIONS MOLDING FRANCE – ASM",
@@ -300,7 +366,9 @@
     "zipCode": "85610",
     "city": "Cugand-la-Bernardière",
     "phone": "0251941778",
-    "email": "contact@asmolding.com"
+    "email": "contact@asmolding.com",
+    "lat": 47.052612,
+    "lng": -1.254992
   },
   {
     "name": "AEL HOME",
@@ -308,7 +376,9 @@
     "address": "",
     "zipCode": "85610",
     "city": "Cugand-la-Bernardière",
-    "website": "https://www.aelhome-conciergerie.fr/"
+    "website": "https://www.aelhome-conciergerie.fr/",
+    "lat": 47.047637,
+    "lng": -1.249692
   },
   {
     "name": "AEQUITAS AVOCATS",
@@ -317,7 +387,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251464328",
-    "email": "contact@aequitasavocats.fr"
+    "email": "contact@aequitasavocats.fr",
+    "lat": 46.977853,
+    "lng": -1.314562
   },
   {
     "name": "AFIMECA",
@@ -325,7 +397,9 @@
     "address": "6 LA TUCHERESSE",
     "zipCode": "85620",
     "city": "Rocheservière",
-    "phone": "0251065475"
+    "phone": "0251065475",
+    "lat": 46.929742,
+    "lng": -1.488515
   },
   {
     "name": "AGENCE AA",
@@ -335,7 +409,9 @@
     "city": "Montaigu-Vendée",
     "phone": "0251941854",
     "email": "m.joyau@micheljoyau.com",
-    "website": "http://www.micheljoyau-agenceaa.com"
+    "website": "http://www.micheljoyau-agenceaa.com",
+    "lat": 46.979937,
+    "lng": -1.308853
   },
   {
     "name": "AGENCES DURET",
@@ -344,7 +420,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251982323",
-    "email": "contact@duret-promoteur.fr"
+    "email": "contact@duret-promoteur.fr",
+    "lat": 46.975236,
+    "lng": -1.312598
   },
   {
     "name": "AGP PLATRERIE",
@@ -353,7 +431,9 @@
     "zipCode": "85660",
     "city": "Saint-Philbert-de-Bouaine",
     "phone": "0251240859",
-    "email": "agp-platrerie@orange.fr"
+    "email": "agp-platrerie@orange.fr",
+    "lat": 46.998138,
+    "lng": -1.514227
   },
   {
     "name": "AGT’IM",
@@ -362,7 +442,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251940184",
-    "email": "agtim.montaigu@agtim.immo"
+    "email": "agtim.montaigu@agtim.immo",
+    "lat": 46.982069,
+    "lng": -1.317485
   },
   {
     "name": "AIGLE FRANCE",
@@ -372,7 +454,9 @@
     "city": "Montaigu-Vendée",
     "phone": "0253888216",
     "email": "angelique.berthet@aiglegroup.eu",
-    "website": "http://www.aiglegroup.eu"
+    "website": "http://www.aiglegroup.eu",
+    "lat": 46.996212,
+    "lng": -1.329278
   },
   {
     "name": "AIRAUD STEPHANE",
@@ -381,7 +465,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251940487",
-    "email": "boulangeairaud@orange.fr"
+    "email": "boulangeairaud@orange.fr",
+    "lat": 46.971037,
+    "lng": -1.310825
   },
   {
     "name": "AIRBEE CONSEIL",
@@ -390,7 +476,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0620990088",
-    "email": "contact@airbee-conseil.fr"
+    "email": "contact@airbee-conseil.fr",
+    "lat": 46.976711,
+    "lng": -1.331378
   },
   {
     "name": "AIRSUB DRONE",
@@ -399,7 +487,9 @@
     "zipCode": "85620",
     "city": "Rocheservière",
     "phone": "0695403032",
-    "email": "contact@air-sub-drone.fr"
+    "email": "contact@air-sub-drone.fr",
+    "lat": 46.938826,
+    "lng": -1.503724
   },
   {
     "name": "AJL TRANSPORTS EXPRESS",
@@ -407,7 +497,9 @@
     "address": "40 RUE DES LORIOTS",
     "zipCode": "85620",
     "city": "Rocheservière",
-    "phone": "0645493376"
+    "phone": "0645493376",
+    "lat": 46.939542,
+    "lng": -1.502834
   },
   {
     "name": "AJP IMMOBILIER",
@@ -416,14 +508,18 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0230253000",
-    "email": "montaigu@ajp-immobilier.com"
+    "email": "montaigu@ajp-immobilier.com",
+    "lat": 46.978048,
+    "lng": -1.312855
   },
   {
     "name": "AKCEDO’TOIT",
     "category": "Travaux de couverture par éléments",
     "address": "1 RUE DES COMPAGNONS",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 47.003104,
+    "lng": -1.34081
   },
   {
     "name": "ALAIN AFFLELOU",
@@ -432,7 +528,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251349265",
-    "email": "optique-piton@orange.fr"
+    "email": "optique-piton@orange.fr",
+    "lat": 46.969061,
+    "lng": -1.328534
   },
   {
     "name": "ALAIN AFFLELOU ACOUSTICIEN",
@@ -440,7 +538,9 @@
     "address": "2 RUE ALFRED NOBEL",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0228048967"
+    "phone": "0228048967",
+    "lat": 46.969061,
+    "lng": -1.328534
   },
   {
     "name": "ALC DOUILLARD",
@@ -449,7 +549,9 @@
     "zipCode": "85260",
     "city": "Montréverd",
     "phone": "0251424933",
-    "email": "contact@alc-douillard.fr"
+    "email": "contact@alc-douillard.fr",
+    "lat": 46.937637,
+    "lng": -1.405363
   },
   {
     "name": "ALEXIA TAXI",
@@ -458,7 +560,9 @@
     "zipCode": "85260",
     "city": "L'Herbergement",
     "phone": "0615326275",
-    "email": "alexiataxi85@gmail.com"
+    "email": "alexiataxi85@gmail.com",
+    "lat": 46.908947,
+    "lng": -1.382431
   },
   {
     "name": "ALG VTC",
@@ -475,7 +579,9 @@
     "city": "Montréverd",
     "phone": "0629852489",
     "email": "alinea.sophrologie@gmail.com",
-    "website": "http://www.alinea-sophrologie.fr"
+    "website": "http://www.alinea-sophrologie.fr",
+    "lat": 46.907921,
+    "lng": -1.431736
   },
   {
     "name": "ALLAIN DANIEL",
@@ -483,7 +589,9 @@
     "address": "2 ALLEE DES SOURCES",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251941961"
+    "phone": "0251941961",
+    "lat": 47.001778,
+    "lng": -1.326609
   },
   {
     "name": "ALLIANCE",
@@ -492,14 +600,18 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0666266381",
-    "email": "contact@imagetvous.com"
+    "email": "contact@imagetvous.com",
+    "lat": 47.001779,
+    "lng": -1.331997
   },
   {
     "name": "ALLO GOUTTIERES 85",
     "category": "Travaux de couverture par éléments",
     "address": "7 RUE GEORGES CLEMENCEAU",
     "zipCode": "85600",
-    "city": "Treize-Septiers"
+    "city": "Treize-Septiers",
+    "lat": 46.983473,
+    "lng": -1.219866
   },
   {
     "name": "ALLO LA CAVE",
@@ -515,7 +627,9 @@
     "category": "Réparation d'équipements de communication",
     "address": "10 RUE GEORGES CLEMENCEAU",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.977207,
+    "lng": -1.313976
   },
   {
     "name": "ALOUETTE AUDITION",
@@ -523,7 +637,9 @@
     "address": "59 BOULEVARD DU PRESIDENT ABEL DURAND",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251448125"
+    "phone": "0251448125",
+    "lat": 47.067014,
+    "lng": -1.254415
   },
   {
     "name": "ALOUETTES VOYAGES SARL",
@@ -532,7 +648,9 @@
     "zipCode": "85620",
     "city": "Rocheservière",
     "phone": "0251949071",
-    "email": "mickael@voyages-bourmaud.net"
+    "email": "mickael@voyages-bourmaud.net",
+    "lat": 46.947634,
+    "lng": -1.491098
   },
   {
     "name": "ALPHACETI",
@@ -541,7 +659,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0650119735",
-    "email": "contact@wegeo.fr"
+    "email": "contact@wegeo.fr",
+    "lat": 47.003608,
+    "lng": -1.286572
   },
   {
     "name": "ALTI – VERDE",
@@ -550,7 +670,9 @@
     "zipCode": "85610",
     "city": "Cugand-la-Bernardière",
     "phone": "0684103293",
-    "email": "altiverde@puzl.com"
+    "email": "altiverde@puzl.com",
+    "lat": 47.081647,
+    "lng": -1.26681
   },
   {
     "name": "ALTIVIA",
@@ -559,14 +681,18 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "+33228399765",
-    "website": "http://contact@alti-via.fr"
+    "website": "http://contact@alti-via.fr",
+    "lat": 46.93687,
+    "lng": -1.278543
   },
   {
     "name": "ALVIDEO",
     "category": "Post-production de films cinématographiques, de vidéo et de programmes de télévision",
     "address": "37 RUE DU COLONEL TAYLOR",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.980838,
+    "lng": -1.306683
   },
   {
     "name": "AM-TEC",
@@ -574,7 +700,9 @@
     "address": "2 RUE ST. ELOI - RTE. DE",
     "zipCode": "85260",
     "city": "Montréverd",
-    "phone": "0251428159"
+    "phone": "0251428159",
+    "lat": 46.936203,
+    "lng": -1.406575
   },
   {
     "name": "AMANDINE INSTITUT DE BEAUTE",
@@ -583,7 +711,9 @@
     "zipCode": "85600",
     "city": "La Boissière-de-Montaigu",
     "phone": "0244404774",
-    "email": "amandineinstitut@gmail.com"
+    "email": "amandineinstitut@gmail.com",
+    "lat": 46.948116,
+    "lng": -1.193125
   },
   {
     "name": "AMBIOVET",
@@ -592,7 +722,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251463669",
-    "email": "contact@lce85.fr"
+    "email": "contact@lce85.fr",
+    "lat": 46.971686,
+    "lng": -1.328445
   },
   {
     "name": "AMBULANCES MARTIN",
@@ -600,7 +732,9 @@
     "address": "49 RUE GEORGES CLEMENCEAU",
     "zipCode": "85260",
     "city": "L'Herbergement",
-    "phone": "0251424678"
+    "phone": "0251424678",
+    "lat": 46.90268,
+    "lng": -1.380169
   },
   {
     "name": "AMD LA GETIERE",
@@ -609,7 +743,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251420242",
-    "email": "contact@la-getiere.com"
+    "email": "contact@la-getiere.com",
+    "lat": 46.927041,
+    "lng": -1.262005
   },
   {
     "name": "AMSTERDAM AIR",
@@ -618,7 +754,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0285756030",
-    "email": "contact@amsterdamair.fr"
+    "email": "contact@amsterdamair.fr",
+    "lat": 46.975559,
+    "lng": -1.334603
   },
   {
     "name": "ANDRADE NADIA",
@@ -626,7 +764,9 @@
     "address": "LA RONDE",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0684738495"
+    "phone": "0684738495",
+    "lat": 46.976264,
+    "lng": -1.229601
   },
   {
     "name": "ANDRE – Maître d’Oeuvre",
@@ -634,7 +774,9 @@
     "address": "74 IMPASSE DES MARIONS",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0783156850"
+    "phone": "0783156850",
+    "lat": 46.976711,
+    "lng": -1.331378
   },
   {
     "name": "ANDRE IRINA",
@@ -642,7 +784,9 @@
     "address": "83 LE BOIS PIN",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251063797"
+    "phone": "0251063797",
+    "lat": 46.997485,
+    "lng": -1.289031
   },
   {
     "name": "ANIMALIA VILLAGE",
@@ -651,7 +795,9 @@
     "zipCode": "85660",
     "city": "Saint-Philbert-de-Bouaine",
     "phone": "0251419704",
-    "email": "animaliavillage@orange.fr"
+    "email": "animaliavillage@orange.fr",
+    "lat": 47.021993,
+    "lng": -1.507338
   },
   {
     "name": "ANJOU VENDEE VIANDES",
@@ -660,7 +806,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0674195530",
-    "email": "stephane@a2vsas.fr"
+    "email": "stephane@a2vsas.fr",
+    "lat": 46.962945,
+    "lng": -1.336822
   },
   {
     "name": "ANTHONY AUTOMOBILES SERVICES",
@@ -669,7 +817,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251987253",
-    "email": "anthony-automobiles-services@orange.fr"
+    "email": "anthony-automobiles-services@orange.fr",
+    "lat": 46.966839,
+    "lng": -1.295411
   },
   {
     "name": "ANTHONY ELEC 85",
@@ -678,7 +828,9 @@
     "zipCode": "85600",
     "city": "Treize-Septiers",
     "phone": "0688156342",
-    "email": "anthonyelec85@gmail.com"
+    "email": "anthonyelec85@gmail.com",
+    "lat": 46.982018,
+    "lng": -1.21768
   },
   {
     "name": "ANTIQUITES-BROCANTE Frédéric GIRARD",
@@ -686,7 +838,9 @@
     "address": "56 AVENUE VILLEBOIS MAREUIL",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251940666"
+    "phone": "0251940666",
+    "lat": 46.980836,
+    "lng": -1.316606
   },
   {
     "name": "APOLLO 3S",
@@ -695,7 +849,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0608681851",
-    "email": "centre.apollo3s@gmail.com"
+    "email": "centre.apollo3s@gmail.com",
+    "lat": 46.982683,
+    "lng": -1.321648
   },
   {
     "name": "AQUA BULLES 85",
@@ -703,21 +859,27 @@
     "address": "479 RUE DE LA SIGNEAUDERIE",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0760859260"
+    "phone": "0760859260",
+    "lat": 46.937075,
+    "lng": -1.280613
   },
   {
     "name": "AQUANAIS",
     "category": "Autres travaux spécialisés de construction",
     "address": "4 RUE JOSEPH GAILLARD",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.984227,
+    "lng": -1.320081
   },
   {
     "name": "ARBO",
     "category": "Coiffure",
     "address": "8 RUE GEORGES CLEMENCEAU",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.977244,
+    "lng": -1.314014
   },
   {
     "name": "ARBORA PAYSAGES",
@@ -725,7 +887,9 @@
     "address": "LES LANDES DE ROUSSAIS",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251461328"
+    "phone": "0251461328",
+    "lat": 47.033872,
+    "lng": -1.358777
   },
   {
     "name": "ARCHI URBA DECO",
@@ -734,14 +898,18 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0228150143",
-    "email": "aud@archiurbadeco.fr"
+    "email": "aud@archiurbadeco.fr",
+    "lat": 46.976209,
+    "lng": -1.31217
   },
   {
     "name": "ARMOR-LUX",
     "category": "Activités des sièges sociaux",
     "address": "1 RUE DES BERGERONNETTES",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.939388,
+    "lng": -1.288703
   },
   {
     "name": "ARNAUD FREDDY",
@@ -749,7 +917,9 @@
     "address": "LA CHARDONNIERE",
     "zipCode": "85600",
     "city": "Treize-Septiers",
-    "phone": "0671162459"
+    "phone": "0671162459",
+    "lat": 46.982772,
+    "lng": -1.217694
   },
   {
     "name": "ARNAUD VETEMENTS",
@@ -757,7 +927,9 @@
     "address": "19 PLACE DU CHAMP DE FOIRE",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251942065"
+    "phone": "0251942065",
+    "lat": 46.978034,
+    "lng": -1.313005
   },
   {
     "name": "ARRIVE JEAN-CHARLES",
@@ -765,7 +937,9 @@
     "address": "18 BOULEVARD ALEX AUVINET",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251463599"
+    "phone": "0251463599",
+    "lat": 46.981863,
+    "lng": -1.313293
   },
   {
     "name": "ART-QUALI-TRAVAUX",
@@ -773,7 +947,9 @@
     "address": "4 IMPASSE DU PETIT PARC",
     "zipCode": "85260",
     "city": "Montréverd",
-    "phone": "0658123891"
+    "phone": "0658123891",
+    "lat": 46.909934,
+    "lng": -1.449014
   },
   {
     "name": "ARTI PLATRE",
@@ -782,14 +958,18 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251942750",
-    "email": "ybonnet.artiplatre@gmail.com"
+    "email": "ybonnet.artiplatre@gmail.com",
+    "lat": 46.98514,
+    "lng": -1.317409
   },
   {
     "name": "ARTI’MA",
     "category": "Travaux de maçonnerie générale et gros œuvre de bâtiment",
     "address": "11 BOULEVARD DES MARCHANDISES",
     "zipCode": "85260",
-    "city": "L'Herbergement"
+    "city": "L'Herbergement",
+    "lat": 46.9064,
+    "lng": -1.370904
   },
   {
     "name": "ARTIFICE",
@@ -798,7 +978,9 @@
     "zipCode": "85260",
     "city": "L'Herbergement",
     "phone": "0251433041",
-    "email": "artificesarl@orange.fr"
+    "email": "artificesarl@orange.fr",
+    "lat": 46.897841,
+    "lng": -1.381962
   },
   {
     "name": "ARZUL MULTISERVICES",
@@ -807,7 +989,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0638150613",
-    "email": "arzulmultiservices@outlook.fr"
+    "email": "arzulmultiservices@outlook.fr",
+    "lat": 46.969033,
+    "lng": -1.245871
   },
   {
     "name": "ASM-PROTOPLAST",
@@ -815,7 +999,9 @@
     "address": "172 IMPASSE ARCHIMEDE",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251941778"
+    "phone": "0251941778",
+    "lat": 46.953588,
+    "lng": -1.353501
   },
   {
     "name": "ASOCIATION GESTION COMPTABILITE DE",
@@ -824,7 +1010,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251489460",
-    "email": "info@novatics.com,recrutement@novatics.com"
+    "email": "info@novatics.com,recrutement@novatics.com",
+    "lat": 46.941361,
+    "lng": -1.286367
   },
   {
     "name": "ASSON ENERGIE",
@@ -832,7 +1020,9 @@
     "address": "3 RUE FERDINAND JAUFFRINEAU",
     "zipCode": "85600",
     "city": "Treize-Septiers",
-    "phone": "0251413917"
+    "phone": "0251413917",
+    "lat": 46.984873,
+    "lng": -1.229432
   },
   {
     "name": "ASTRO PIZZ",
@@ -840,7 +1030,9 @@
     "address": "21 LA RONDE",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0608574557"
+    "phone": "0608574557",
+    "lat": 46.976113,
+    "lng": -1.229126
   },
   {
     "name": "ATARAXY SECURITE",
@@ -850,7 +1042,9 @@
     "city": "Saint-Philbert-de-Bouaine",
     "phone": "0660959061",
     "email": "ataraxy.securite@gmail.com",
-    "website": "https://www.ataraxy-securite.com/"
+    "website": "https://www.ataraxy-securite.com/",
+    "lat": 46.99381,
+    "lng": -1.520084
   },
   {
     "name": "ATC",
@@ -858,7 +1052,9 @@
     "address": "LE CLOUZY",
     "zipCode": "85620",
     "city": "Rocheservière",
-    "phone": "0228975446,0648737260"
+    "phone": "0228975446,0648737260",
+    "lat": 46.893048,
+    "lng": -1.489765
   },
   {
     "name": "ATELIER CHENU",
@@ -867,7 +1063,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251463234",
-    "email": "contact@ateliers-chenu.com"
+    "email": "contact@ateliers-chenu.com",
+    "lat": 46.983573,
+    "lng": -1.318602
   },
   {
     "name": "ATELIER COIFFURE",
@@ -876,14 +1074,18 @@
     "zipCode": "85660",
     "city": "Saint-Philbert-de-Bouaine",
     "phone": "0251419298",
-    "website": "http://planity.com"
+    "website": "http://planity.com",
+    "lat": 46.986235,
+    "lng": -1.520896
   },
   {
     "name": "ATELIER DE BOBINAGE SORIN",
     "category": "Réparation d'équipements électriques",
     "address": "81 RUE DE LA SIGNEAUDERIE",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.938251,
+    "lng": -1.280974
   },
   {
     "name": "ATELIER JOCHA",
@@ -892,7 +1094,9 @@
     "zipCode": "85260",
     "city": "L'Herbergement",
     "phone": "0786638490",
-    "email": "eve.atelierjocha@gmail.com"
+    "email": "eve.atelierjocha@gmail.com",
+    "lat": 46.904065,
+    "lng": -1.379913
   },
   {
     "name": "ATELIER MECANIQUE DE LA SEVRE",
@@ -901,7 +1105,9 @@
     "zipCode": "85530",
     "city": "La Bruffière",
     "phone": "0251425282",
-    "email": "contact@ams85.fr"
+    "email": "contact@ams85.fr",
+    "lat": 47.014562,
+    "lng": -1.16684
   },
   {
     "name": "ATELIER ROSEMARY",
@@ -910,7 +1116,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251949503",
-    "email": "bienvenue@atelier-rosemary.fr"
+    "email": "bienvenue@atelier-rosemary.fr",
+    "lat": 47.001779,
+    "lng": -1.331997
   },
   {
     "name": "ATELLANE",
@@ -919,7 +1127,9 @@
     "zipCode": "85260",
     "city": "L'Herbergement",
     "phone": "0228155398",
-    "email": "mtv.atellane@orange.fr"
+    "email": "mtv.atellane@orange.fr",
+    "lat": 46.901907,
+    "lng": -1.379823
   },
   {
     "name": "ATLANTIC PARAMOTEUR",
@@ -927,7 +1137,9 @@
     "address": "L'AERODROME",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0684398873"
+    "phone": "0684398873",
+    "lat": 46.979292,
+    "lng": -1.292128
   },
   {
     "name": "ATLANTIC PROPRETE SERVICE",
@@ -936,14 +1148,18 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0228159442",
-    "email": "aps.alain85@gmail.com"
+    "email": "aps.alain85@gmail.com",
+    "lat": 46.935822,
+    "lng": -1.276584
   },
   {
     "name": "ATLANTIQUE COMPOSANTS",
     "category": "Commerce de gros (commerce interentreprises) de composants et d'équipements électroniques et de télécommunication",
     "address": "1 IMPASSE ARCHIMEDE",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.953948,
+    "lng": -1.353034
   },
   {
     "name": "ATLOC",
@@ -952,7 +1168,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251072828",
-    "email": "contact@atloc.fr"
+    "email": "contact@atloc.fr",
+    "lat": 46.941361,
+    "lng": -1.286367
   },
   {
     "name": "ATOUT PNEUS 85",
@@ -961,7 +1179,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0647281520",
-    "email": "contact@atoutpneus85.fr"
+    "email": "contact@atoutpneus85.fr",
+    "lat": 46.949995,
+    "lng": -1.350337
   },
   {
     "name": "ATP IMMOBILIER",
@@ -970,7 +1190,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251464720",
-    "email": "contact@atpimmobilier.fr"
+    "email": "contact@atpimmobilier.fr",
+    "lat": 47.003249,
+    "lng": -1.33257
   },
   {
     "name": "ATZ COUVERTURE 85",
@@ -979,7 +1201,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0659163830",
-    "email": "atz.couverture@outlook.fr"
+    "email": "atz.couverture@outlook.fr",
+    "lat": 46.940329,
+    "lng": -1.273625
   },
   {
     "name": "AU GRENIER DE L’OCCAZ",
@@ -987,7 +1211,9 @@
     "address": "2 RUE AUGUSTIN FRESNEL",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251313365"
+    "phone": "0251313365",
+    "lat": 46.976128,
+    "lng": -1.333307
   },
   {
     "name": "AU JARDIN DE LA LIBAUDIERE",
@@ -995,7 +1221,9 @@
     "address": "LA LIBAUDIERE",
     "zipCode": "85530",
     "city": "La Bruffière",
-    "phone": "0617360331"
+    "phone": "0617360331",
+    "lat": 47.033759,
+    "lng": -1.227486
   },
   {
     "name": "AU PAIN D’ANGE DE LEO",
@@ -1003,7 +1231,9 @@
     "address": "15 RUE DE LA CROIX ROUGE",
     "zipCode": "85600",
     "city": "Treize-Septiers",
-    "phone": "0251415356"
+    "phone": "0251415356",
+    "lat": 46.985503,
+    "lng": -1.230377
   },
   {
     "name": "AUDIKA",
@@ -1013,7 +1243,9 @@
     "city": "Montaigu-Vendée",
     "phone": "0251488899",
     "email": "centre4468@audika.fr",
-    "website": "http://www.audika.fr"
+    "website": "http://www.audika.fr",
+    "lat": 46.978312,
+    "lng": -1.314706
   },
   {
     "name": "AUDRAIN MANON",
@@ -1021,7 +1253,9 @@
     "address": "38 LA CHAPELIERE",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251463756"
+    "phone": "0251463756",
+    "lat": 46.921945,
+    "lng": -1.313506
   },
   {
     "name": "AUDRAN STEPHANE",
@@ -1030,7 +1264,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0622119756",
-    "email": "steph.audran@gmail.com,contact@stephaneaudran.fr"
+    "email": "steph.audran@gmail.com,contact@stephaneaudran.fr",
+    "lat": 47.000689,
+    "lng": -1.324241
   },
   {
     "name": "AUDUREAU MACONNERIE",
@@ -1039,14 +1275,9 @@
     "zipCode": "85600",
     "city": "Treize-Septiers",
     "phone": "0611983852",
-    "email": "audureaumaconnerie@outlook.fr"
-  },
-  {
-    "name": "AUDUREAU MICHEL",
-    "category": "Location de terrains et d'autres biens immobiliers",
-    "address": "LE BORDAGE CAILLE",
-    "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "email": "audureaumaconnerie@outlook.fr",
+    "lat": 46.999535,
+    "lng": -1.23737
   },
   {
     "name": "AUDUREAU MICHEL",
@@ -1054,7 +1285,18 @@
     "address": "LE BORDAGE CAILLE",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0617597883"
+    "lat": 46.968832,
+    "lng": -1.258581
+  },
+  {
+    "name": "AUDUREAU MICHEL",
+    "category": "Location de terrains et d'autres biens immobiliers",
+    "address": "LE BORDAGE CAILLE",
+    "zipCode": "85600",
+    "city": "Montaigu-Vendée",
+    "phone": "0617597883",
+    "lat": 46.968832,
+    "lng": -1.258581
   },
   {
     "name": "AUGUSTE FREDERIC",
@@ -1063,7 +1305,9 @@
     "zipCode": "85260",
     "city": "L'Herbergement",
     "phone": "0251400194,0685211087",
-    "email": "menuiserie.auguste.frederic@orange.fr"
+    "email": "menuiserie.auguste.frederic@orange.fr",
+    "lat": 46.906361,
+    "lng": -1.378159
   },
   {
     "name": "AUTO BILAN CUGAND PL VL",
@@ -1072,7 +1316,9 @@
     "zipCode": "85610",
     "city": "Cugand-la-Bernardière",
     "phone": "0251436094",
-    "email": "autobilancugand@orange.fr"
+    "email": "autobilancugand@orange.fr",
+    "lat": 47.055707,
+    "lng": -1.256701
   },
   {
     "name": "AUTO ECOLE CAILLAUD",
@@ -1081,7 +1327,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0228159697",
-    "email": "caillaud.anthony@wanadoo.fr"
+    "email": "caillaud.anthony@wanadoo.fr",
+    "lat": 46.960392,
+    "lng": -1.341545
   },
   {
     "name": "AUTO SECURITAS MONTAIGU VENDEE",
@@ -1089,7 +1337,9 @@
     "address": "111 RUE DU DOCTEUR FAYAU",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251625845"
+    "phone": "0251625845",
+    "lat": 46.984849,
+    "lng": -1.317985
   },
   {
     "name": "AUX SAVEURS DE LOULAY",
@@ -1097,7 +1347,9 @@
     "address": "18 (2) RUE DE NANTES",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0251942733"
+    "phone": "0251942733",
+    "lat": 47.001774,
+    "lng": -1.331743
   },
   {
     "name": "AUX SAVEURS DU FOURNIL",
@@ -1105,7 +1357,9 @@
     "address": "10 RUE GEORGES CLEMENCEAU",
     "zipCode": "85260",
     "city": "L'Herbergement",
-    "phone": "0251428063"
+    "phone": "0251428063",
+    "lat": 46.907691,
+    "lng": -1.377305
   },
   {
     "name": "AVENCIA",
@@ -1114,7 +1368,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0228150015",
-    "email": "montaigu@avencia-eca.fr"
+    "email": "montaigu@avencia-eca.fr",
+    "lat": 46.97555,
+    "lng": -1.336463
   },
   {
     "name": "AVENCIA CHM",
@@ -1122,7 +1378,9 @@
     "address": "10 RUE AUGUSTIN FRESNEL",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0228150015"
+    "phone": "0228150015",
+    "lat": 46.97555,
+    "lng": -1.336463
   },
   {
     "name": "AVENIR FENETRES",
@@ -1131,7 +1389,9 @@
     "zipCode": "85660",
     "city": "Saint-Philbert-de-Bouaine",
     "phone": "0251248553",
-    "email": "l.neron@avenirfenetres.fr"
+    "email": "l.neron@avenirfenetres.fr",
+    "lat": 47.009137,
+    "lng": -1.508702
   },
   {
     "name": "AXA",
@@ -1139,7 +1399,9 @@
     "address": "2 PLACE DE LA NOUE",
     "zipCode": "85600",
     "city": "La Boissière-de-Montaigu",
-    "phone": "0251416120"
+    "phone": "0251416120",
+    "lat": 46.950356,
+    "lng": -1.19076
   },
   {
     "name": "AXA ASSURANCE",
@@ -1148,7 +1410,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251463688",
-    "email": "agence.cpmmontaigu@axa.fr"
+    "email": "agence.cpmmontaigu@axa.fr",
+    "lat": 46.983573,
+    "lng": -1.318602
   },
   {
     "name": "AXENERGIE",
@@ -1157,7 +1421,9 @@
     "zipCode": "85610",
     "city": "Cugand-la-Bernardière",
     "phone": "0251421629",
-    "email": "contact@axenergie.com"
+    "email": "contact@axenergie.com",
+    "lat": 47.067459,
+    "lng": -1.253203
   },
   {
     "name": "AXO ET ACTIFS – A & A",
@@ -1165,7 +1431,9 @@
     "address": "9 RUE POINTE A PITRE",
     "zipCode": "85530",
     "city": "La Bruffière",
-    "phone": "0251464466"
+    "phone": "0251464466",
+    "lat": 47.017409,
+    "lng": -1.198683
   },
   {
     "name": "AZYENA",
@@ -1174,14 +1442,18 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251426691",
-    "email": "azyena@gmail.com"
+    "email": "azyena@gmail.com",
+    "lat": 46.978002,
+    "lng": -1.314683
   },
   {
     "name": "B J AUTO ECOLE",
     "category": "Enseignement de la conduite",
     "address": "3 PLACE VERDON",
     "zipCode": "85660",
-    "city": "Saint-Philbert-de-Bouaine"
+    "city": "Saint-Philbert-de-Bouaine",
+    "lat": 46.9861,
+    "lng": -1.521198
   },
   {
     "name": "B-SIDE FACTORY",
@@ -1190,7 +1462,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0972215612",
-    "email": "contact@b-sidefactory.com"
+    "email": "contact@b-sidefactory.com",
+    "lat": 47.017009,
+    "lng": -1.345808
   },
   {
     "name": "B.E.C.M.",
@@ -1199,7 +1473,9 @@
     "zipCode": "85610",
     "city": "La Bernardière",
     "phone": "0251425593",
-    "email": "becmaudet@orange.fr"
+    "email": "becmaudet@orange.fr",
+    "lat": 47.049403,
+    "lng": -1.266754
   },
   {
     "name": "BAGUELIN TECHNIQUES MACHINES OUTILS",
@@ -1208,7 +1484,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251626785",
-    "email": "commercial@btmo.fr"
+    "email": "commercial@btmo.fr",
+    "lat": 46.970683,
+    "lng": -1.324524
   },
   {
     "name": "BAKER TILLY STREGO",
@@ -1218,7 +1496,9 @@
     "city": "Montaigu-Vendée",
     "phone": "0228150530",
     "email": "e.chatry@strego.fr,strego.montaigu@strego.fr,strego@1789.fr,s.arnou@bakertilly.fr",
-    "website": "https://www.strego.fr"
+    "website": "https://www.strego.fr",
+    "lat": 46.976128,
+    "lng": -1.333307
   },
   {
     "name": "BANQUE CIC OUEST",
@@ -1228,7 +1508,9 @@
     "city": "Montaigu-Vendée",
     "phone": "0820092108",
     "email": "14012@cic.fr",
-    "website": "http://www.cic.fr"
+    "website": "http://www.cic.fr",
+    "lat": 46.977993,
+    "lng": -1.3125
   },
   {
     "name": "BANQUE POPULAIRE GRAND OUEST",
@@ -1237,7 +1519,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0272965700,0251803993",
-    "website": "http://www.banquepopulaire.fr"
+    "website": "http://www.banquepopulaire.fr",
+    "lat": 46.967977,
+    "lng": -1.245218
   },
   {
     "name": "BAR RESTAURANT LES AMIS",
@@ -1245,7 +1529,9 @@
     "address": "1 RUE DU COMMERCE",
     "zipCode": "85660",
     "city": "Saint-Philbert-de-Bouaine",
-    "phone": "0251419104"
+    "phone": "0251419104",
+    "lat": 46.985158,
+    "lng": -1.521267
   },
   {
     "name": "BAREAU COLINE",
@@ -1253,7 +1539,9 @@
     "address": "1 RUE PIERRE DE RONSARD",
     "zipCode": "85260",
     "city": "L'Herbergement",
-    "phone": "0633907516"
+    "phone": "0633907516",
+    "lat": 46.913662,
+    "lng": -1.369544
   },
   {
     "name": "BARJOTS DUNKERS",
@@ -1262,7 +1550,9 @@
     "zipCode": "85260",
     "city": "L'Herbergement",
     "phone": "0658685143",
-    "email": "barjotsdunkers@yahoo.fr"
+    "email": "barjotsdunkers@yahoo.fr",
+    "lat": 46.900631,
+    "lng": -1.380267
   },
   {
     "name": "BARREAU JACKY",
@@ -1270,7 +1560,9 @@
     "address": "RUE PIERRE GUILE",
     "zipCode": "85610",
     "city": "Cugand-la-Bernardière",
-    "phone": "0672508579"
+    "phone": "0672508579",
+    "lat": 47.06994,
+    "lng": -1.263061
   },
   {
     "name": "Bastien HARDY",
@@ -1279,7 +1571,9 @@
     "zipCode": "85260",
     "city": "Montréverd",
     "phone": "0674342221",
-    "email": "contact@llabbstudio.fr"
+    "email": "contact@llabbstudio.fr",
+    "lat": 46.933415,
+    "lng": -1.412273
   },
   {
     "name": "BAUDOUIN YELENA",
@@ -1287,7 +1581,9 @@
     "address": "11 HAMEAU LA HINCHERE",
     "zipCode": "85600",
     "city": "Treize-Septiers",
-    "phone": "0699113532"
+    "phone": "0699113532",
+    "lat": 47.002594,
+    "lng": -1.264976
   },
   {
     "name": "BAUDRY MARYANNICK",
@@ -1296,7 +1592,9 @@
     "zipCode": "85600",
     "city": "La Boissière-de-Montaigu",
     "phone": "0611558933",
-    "email": "ensemble.echange@gmail.com"
+    "email": "ensemble.echange@gmail.com",
+    "lat": 46.95183,
+    "lng": -1.192276
   },
   {
     "name": "BAUDRY PEINTURE",
@@ -1305,7 +1603,9 @@
     "zipCode": "85660",
     "city": "Saint-Philbert-de-Bouaine",
     "phone": "0698547949",
-    "email": "contact@baudry-peinture.com"
+    "email": "contact@baudry-peinture.com",
+    "lat": 46.981699,
+    "lng": -1.523641
   },
   {
     "name": "BAZ COMPAGNIE",
@@ -1313,7 +1613,9 @@
     "address": "RUE DE LA VIGNE ROUGE",
     "zipCode": "85260",
     "city": "L'Herbergement",
-    "phone": "0251073689"
+    "phone": "0251073689",
+    "lat": 46.901566,
+    "lng": -1.379673
   },
   {
     "name": "BD-ERGONOMIE",
@@ -1323,7 +1625,9 @@
     "city": "L'Herbergement",
     "phone": "0625569321",
     "email": "contact@ergonomie.com",
-    "website": "http://bdergonomie.com"
+    "website": "http://bdergonomie.com",
+    "lat": 46.908771,
+    "lng": -1.37293
   },
   {
     "name": "BEAULIEU DESIGN",
@@ -1332,7 +1636,9 @@
     "zipCode": "85260",
     "city": "L'Herbergement",
     "phone": "0788445108",
-    "email": "contact@beaulieu-design.fr"
+    "email": "contact@beaulieu-design.fr",
+    "lat": 46.908625,
+    "lng": -1.376603
   },
   {
     "name": "BEAUTE VICTORIEUSE",
@@ -1340,7 +1646,9 @@
     "address": "",
     "zipCode": "85260",
     "city": "L'Herbergement",
-    "phone": "0608683857"
+    "phone": "0608683857",
+    "lat": 46.920811,
+    "lng": -1.372456
   },
   {
     "name": "BEAUVOIS AUTOMOBILES",
@@ -1349,7 +1657,9 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251092929",
-    "email": "peugeot.montaigu@groupebeauvois.fr"
+    "email": "peugeot.montaigu@groupebeauvois.fr",
+    "lat": 46.984457,
+    "lng": -1.319192
   },
   {
     "name": "BELLAVIDA",
@@ -1357,14 +1667,18 @@
     "address": "33 RUE SAINT JOSEPH",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0228979216"
+    "phone": "0228979216",
+    "lat": 46.962601,
+    "lng": -1.338944
   },
   {
     "name": "BELLOM LOUISE",
     "category": "Coiffure",
     "address": "27 (2) RUE DE L'ABBE GIRAUDET",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 47.003625,
+    "lng": -1.331199
   },
   {
     "name": "BENIER CHLOE",
@@ -1372,21 +1686,27 @@
     "address": "97 RUE DES LOGES",
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
-    "phone": "0784945172"
+    "phone": "0784945172",
+    "lat": 46.965746,
+    "lng": -1.296552
   },
   {
     "name": "BENIER CHLOE",
     "category": "Autres services personnels n.c.a.",
     "address": "50 RUE AMIRAL DUCHAFFAULT",
     "zipCode": "85600",
-    "city": "Montaigu-Vendée"
+    "city": "Montaigu-Vendée",
+    "lat": 46.96587,
+    "lng": -1.248929
   },
   {
     "name": "BENOIT LANDREAU PAYSAGE",
     "category": "Services d'aménagement paysager",
     "address": "22 RUE DE LA VIGNE ROUGE",
     "zipCode": "85260",
-    "city": "L'Herbergement"
+    "city": "L'Herbergement",
+    "lat": 46.900288,
+    "lng": -1.380458
   },
   {
     "name": "BERNARD LAURENT",
@@ -1394,7 +1714,9 @@
     "address": "8 PLACE VERDON",
     "zipCode": "85660",
     "city": "Saint-Philbert-de-Bouaine",
-    "phone": "0251417486"
+    "phone": "0251417486",
+    "lat": 46.986365,
+    "lng": -1.520759
   },
   {
     "name": "BERTIN CYRILLE",
@@ -1403,7 +1725,9 @@
     "zipCode": "85600",
     "city": "Treize-Septiers",
     "phone": "0674085220",
-    "email": "bertincyrille@yahoo.fr"
+    "email": "bertincyrille@yahoo.fr",
+    "lat": 47.009522,
+    "lng": -1.242697
   },
   {
     "name": "BESNIER FREDDY",
@@ -1412,7 +1736,9 @@
     "zipCode": "85260",
     "city": "Montréverd",
     "phone": "0661063125",
-    "email": "sslv@orange.fr"
+    "email": "sslv@orange.fr",
+    "lat": 46.896189,
+    "lng": -1.420389
   },
   {
     "name": "BETTYSSIMA",
@@ -1421,6 +1747,8 @@
     "zipCode": "85600",
     "city": "Montaigu-Vendée",
     "phone": "0251940250",
-    "email": "grandetbetty85@gmail.com"
+    "email": "grandetbetty85@gmail.com",
+    "lat": 46.975914,
+    "lng": -1.312921
   }
 ]
