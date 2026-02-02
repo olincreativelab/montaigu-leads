@@ -1,10 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import dynamic from 'next/dynamic';
+
 import { LeadCard } from './components/LeadCard';
 
-// Dynamically import map to avoid SSR issues with Leaflet
-const LeadMap = dynamic(() => import('./components/LeadMap'), { ssr: false });
+import MapWrapper from './components/MapWrapper';
 
 
 
@@ -85,7 +84,7 @@ export default async function Home() {
 
         {/* Right Panel: Map */}
         <div className="flex-1 relative bg-slate-950">
-          <LeadMap leads={leads} />
+          <MapWrapper leads={leads} />
         </div>
       </div>
     </main>
