@@ -4,8 +4,9 @@ import axios from 'axios';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const INPUT_FILE = path.join(DATA_DIR, 'leads.json');
-const OUTPUT_FILE = path.join(DATA_DIR, 'leads.json'); // Overwrite safely
+const OUTPUT_FILE = path.join(DATA_DIR, 'leads_geocoded.json');
 
+// Interface for the Lead model
 interface Lead {
     name: string;
     category: string;
@@ -15,95 +16,81 @@ interface Lead {
     phone?: string;
     email?: string;
     website?: string;
+    description?: string;
     zone?: string;
     lat?: number;
     lng?: number;
 }
 
-// Rate limiting: 10-50 calls per second allowed by the API, but let's be safe with 100ms delay
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function geocodeAddress(address: string, city: string, zipCode: string): Promise<{ lat: number; lng: number } | null> {
-    try {
-        // Construct query: "Address City ZipCode"
-        const query = `${address} ${city} ${zipCode}`;
-        const encodedQuery = encodeURIComponent(query);
-        const url = `https://api-adresse.data.gouv.fr/search/?q=${encodedQuery}&limit=1`;
+async function geocodeAddress(lead: Lead): Promise<{ lat: number; lng: number } | null> {
+    // Construct a clean query
+    // Priority: "Address City Zip"
+    const query = `${lead.address} ${lead.zipCode} ${lead.city}`.trim();
 
+    try {
+        const url = `https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=1`;
         const response = await axios.get(url);
 
         if (response.data && response.data.features && response.data.features.length > 0) {
-            const coordinates = response.data.features[0].geometry.coordinates;
-            // API returns [long, lat], we want { lat, lng }
-            return {
-                lng: coordinates[0],
-                lat: coordinates[1]
-            };
+            const geometry = response.data.features[0].geometry;
+            const [lng, lat] = geometry.coordinates; // GeoJSON is [lon, lat]
+            return { lat, lng };
         }
-        return null;
-    } catch (error: any) {
-        console.error(`Error geocoding ${address}:`, error.message);
-        return null;
+    } catch (error) {
+        console.error(`Error geocoding ${query}: ${(error as Error).message}`);
     }
+    return null;
 }
 
 async function main() {
     if (!fs.existsSync(INPUT_FILE)) {
-        console.error("Leads file not found!");
+        console.error(`Input file not found: ${INPUT_FILE}`);
         return;
     }
 
-    const rawData = fs.readFileSync(INPUT_FILE, 'utf8');
-    let leads: Lead[] = JSON.parse(rawData);
+    const rawData = fs.readFileSync(INPUT_FILE, 'utf-8');
+    const leads: Lead[] = JSON.parse(rawData);
+    const geocodedLeads: Lead[] = [];
 
-    console.log(`Loaded ${leads.length} leads.`);
+    console.log(`Starting geocoding for ${leads.length} leads...`);
 
-    let updatedCount = 0;
-    let skippedCount = 0;
+    let successCount = 0;
 
-    // Process in batches to save progress
     for (let i = 0; i < leads.length; i++) {
         const lead = leads[i];
 
-        // Skip if already geocoded
+        // Skip if already has coordinates (idempotency)
         if (lead.lat && lead.lng) {
-            skippedCount++;
+            geocodedLeads.push(lead);
             continue;
         }
 
-        // Skip if no address
-        if (!lead.address && !lead.city) {
-            console.log(`Skipping ${lead.name} (no address)`);
-            continue;
-        }
-
-        console.log(`Geocoding (${i + 1}/${leads.length}): ${lead.name}...`);
-
-        const coords = await geocodeAddress(lead.address, lead.city, lead.zipCode);
+        console.log(`[${i + 1}/${leads.length}] Geocoding: ${lead.name}...`);
+        const coords = await geocodeAddress(lead);
 
         if (coords) {
-            leads[i].lat = coords.lat;
-            leads[i].lng = coords.lng;
-            updatedCount++;
+            lead.lat = coords.lat;
+            lead.lng = coords.lng;
+            successCount++;
         } else {
-            console.log(`❌ Could not geocode: ${lead.name}`);
+            console.warn(`Could not geocode: ${lead.name}`);
         }
 
-        // Rate limit
-        await sleep(100);
+        geocodedLeads.push(lead);
 
-        // Save progress every 20 items
-        if (i % 20 === 0) {
-            fs.writeFileSync(OUTPUT_FILE, JSON.stringify(leads, null, 2));
+        // Save periodically
+        if (i % 10 === 0) {
+            fs.writeFileSync(OUTPUT_FILE, JSON.stringify(geocodedLeads, null, 2));
         }
+
+        // Rate limiting (respect the free API)
+        await sleep(200); // 5 request per second is safe for this API
     }
 
-    // Final save
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(leads, null, 2));
-    console.log(`\nGeocoding complete!`);
-    console.log(`Updated: ${updatedCount}`);
-    console.log(`Previously Geocoded/Skipped: ${skippedCount}`);
-    console.log(`Total: ${leads.length}`);
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(geocodedLeads, null, 2));
+    console.log(`Geocoding complete. Enriched ${successCount} leads. Saved to ${OUTPUT_FILE}`);
 }
 
 main();

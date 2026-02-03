@@ -18,10 +18,21 @@ interface Lead {
     lng?: number;
 }
 
-interface MapWrapperProps {
-    leads: Lead[];
+interface ZoneInfo {
+    name: string;
+    url?: string;
+    companiesUrl?: string; // Optional
+    companies?: string[];
+    lat?: number;
+    lng?: number;
+    city?: string;
 }
 
-export default function MapWrapper({ leads }: MapWrapperProps) {
-    return <LeadMap leads={leads} />;
+interface MapWrapperProps {
+    leads: Lead[];
+    zones?: ZoneInfo[];
+}
+
+export default function MapWrapper({ leads, zones = [] }: MapWrapperProps) {
+    return <LeadMap leads={leads} zones={zones} />;
 }

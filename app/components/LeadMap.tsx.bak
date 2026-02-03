@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, CircleMarker } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Icon } from 'leaflet';
 
@@ -21,25 +21,15 @@ interface Lead {
     city: string;
     zipCode: string;
     phone?: string;
-    email?: string;
-    zone?: string;
     lat?: number;
     lng?: number;
-}
-
-interface ZoneInfo {
-    name: string;
-    lat?: number;
-    lng?: number;
-    companies?: string[];
 }
 
 interface LeadMapProps {
     leads: Lead[];
-    zones?: ZoneInfo[];
 }
 
-const LeadMap: React.FC<LeadMapProps> = ({ leads, zones = [] }) => {
+const LeadMap: React.FC<LeadMapProps> = ({ leads }) => {
     const [isMounted, setIsMounted] = useState(false);
 
     useEffect(() => {
@@ -53,41 +43,20 @@ const LeadMap: React.FC<LeadMapProps> = ({ leads, zones = [] }) => {
     // Montaigu Center
     const center = [46.973, -1.313] as [number, number];
 
+    // Filter leads with valid coordinates (mock logic for now as we don't have lat/lng yet)
+    // TODO: Add geocoding step
     const validLeads = leads.filter(l => l.lat && l.lng);
-    const validZones = zones.filter(z => z.lat && z.lng);
 
     return (
-        <div className="h-full w-full overflow-hidden">
+        <div className="h-full w-full overflow-hidden rounded-2xl border border-white/20">
             <MapContainer center={center} zoom={13} style={{ height: '100%', width: '100%' }}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
                 />
-
-                {/* Render Zones */}
-                {validZones.map((zone, idx) => (
-                    <CircleMarker
-                        key={`zone-${idx}`}
-                        center={[zone.lat!, zone.lng!]}
-                        radius={20}
-                        pathOptions={{ color: '#6366f1', fillColor: '#6366f1', fillOpacity: 0.3 }}
-                    >
-                        <Popup>
-                            <div className="font-sans text-sm">
-                                <strong className="block text-base font-bold text-indigo-600">{zone.name}</strong>
-                                <p className="text-slate-600">Activity Zone</p>
-                                {zone.companies && (
-                                    <p className="mt-1 text-xs text-slate-500">{zone.companies.length} companies listed</p>
-                                )}
-                            </div>
-                        </Popup>
-                    </CircleMarker>
-                ))}
-
-                {/* Render Leads */}
                 {validLeads.map((lead, idx) => (
                     <Marker
-                        key={`lead-${idx}`}
+                        key={idx}
                         position={[lead.lat!, lead.lng!]}
                         icon={defaultIcon}
                     >
@@ -96,11 +65,6 @@ const LeadMap: React.FC<LeadMapProps> = ({ leads, zones = [] }) => {
                                 <strong className="block text-base font-bold text-slate-800">{lead.name}</strong>
                                 <p className="text-slate-600">{lead.category}</p>
                                 <p className="mt-1 text-xs text-slate-500">{lead.address}</p>
-                                {lead.zone && (
-                                    <span className="mt-2 inline-block rounded bg-indigo-100 px-2 py-0.5 text-xs font-medium text-indigo-800">
-                                        {lead.zone}
-                                    </span>
-                                )}
                             </div>
                         </Popup>
                     </Marker>

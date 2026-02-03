@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Z.A. LA ROULIÈRE",
+    "url": "https://simplanter.fr/zone-activites/z-a-la-rouliere-saint-philbert-de-bouaine",
+    "companies": [
+      "Découvrir"
+    ],
+    "city": "SAINT-PHILBERT-DE-BOUAINE",
+    "lat": 46.985015,
+    "lng": -1.515629
+  },
+  {
+    "name": "Z.I. DE LA CROIX BITON",
+    "url": "https://simplanter.fr/zone-activites/z-i-de-la-croix-biton-saint-philbert-de-bouaine",
+    "companies": [
+      "Découvrir"
+    ],
+    "city": "SAINT-PHILBERT-DE-BOUAINE",
+    "lat": 47.023465,
+    "lng": -1.521594
+  },
+  {
+    "name": "Z.I. LA CHARDONNIÈRE",
+    "url": "https://simplanter.fr/zone-activites/z-i-la-chardonniere-treize-septiers",
+    "companies": [
+      "Découvrir"
+    ],
+    "city": "TREIZE-SEPTIERS",
+    "lat": 46.982772,
+    "lng": -1.217694
+  },
+  {
+    "name": "Z.I. VINCENT ANSQUER",
+    "url": "https://simplanter.fr/zone-activites/z-i-vincent-ansquer-treize-septiers",
+    "companies": [
+      "Découvrir"
+    ],
+    "city": "TREIZE-SEPTIERS",
+    "lat": 46.981043,
+    "lng": -1.224439
+  }
+]
